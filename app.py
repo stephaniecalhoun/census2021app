@@ -6,6 +6,8 @@ from dash import dcc as dcc
 from dash import html as html
 from dash.dependencies import Input, Output
 
+server = app.server
+
 # Define the font family and size
 FONT_FAMILY = 'Arial, sans-serif'
 FONT_SIZE = '16px'
